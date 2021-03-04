@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyrics Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="main">
+      <input
+        type="text"
+        name="artist"
+        id="artist"
+        placeholder="type artist name"
+      />
+      <button id="Lyrics" onclick="songsDetail()">Average of words</button>
+      <div class="p-container"><p id="result"></p></div>
+    </div>
+    <script
+      crossorigin
+      type="text/javascript"
+      src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=es6"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
