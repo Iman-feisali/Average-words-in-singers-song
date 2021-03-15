@@ -1,5 +1,3 @@
-const getLyrics = document.getElementById("lyrics");
-
 function songsDetail(artist) {
   const artistName = document.getElementById("artist").value;
   const getResult = document.getElementById("result");
